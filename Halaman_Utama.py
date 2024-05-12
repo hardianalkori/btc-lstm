@@ -6,7 +6,6 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 from utils.make_data import preprocessing
-from utils.usd_idr import get_pair_price
 import streamviz
 
 data_btc = preprocessing()
