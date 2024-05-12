@@ -33,9 +33,6 @@ model = load_model("model/BTC-128-256-3L-350EPOCH.h5", compile = False)
 df = pd.read_excel("dataset/btc_data_new.xlsx")
 history_forecast = pd.read_excel("dataset/history_forecast.xlsx")[["date","high","low","close"]]
 x_last = df[["index","high_scaled", "low_scaled", "close_scaled"]][1:-1].values.reshape(-1,30,4)
-print(x_last)
-
-
 
 with st.sidebar:
 	st.subheader("Harga Saat Ini: "+str(today["Close"].iloc[-1]))
@@ -83,7 +80,6 @@ def chart(next_high, next_low, next_close):
 def save_forecast(next_high, next_low, next_close):
 	data_forecast = pd.read_excel("dataset/history_forecast.xlsx")
 	data_forecast["date"] = data_forecast["date"]
-	print(utc_now, data_forecast["date"].tolist())
 	if utc_now not in data_forecast["date"].tolist():
 		data_forecast.loc[len(data_forecast)] = {"date":utc_now, "high":next_high, "low":next_low, "close":next_close}
 		data_forecast.to_excel("dataset/history_forecast.xlsx", index = False)
