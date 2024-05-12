@@ -27,7 +27,7 @@ Install library yang diperlukan
 ```
 Jalankan
 ```bash
-  streamlit run "Halaman Utama.py"
+  streamlit run "Halaman_Utama.py"
 ```
     
 
