@@ -16,8 +16,9 @@ def get_fng():
     return fng["value"].tolist(), fng["value_classification"].tolist()
 
 def get_btc_data():
-    end_date = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
-    start_date = (datetime.now() - timedelta(days=31)).strftime('%Y-%m-%d')
+    now_utc = datetime.utcnow()
+    end_date = (now_utc + timedelta(days=1)).strftime('%Y-%m-%d')
+    start_date = (now_utc - timedelta(days=31)).strftime('%Y-%m-%d')
 
     btc_data = yf.download('BTC-USD', start=start_date, end=end_date)
 

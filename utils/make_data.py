@@ -11,7 +11,6 @@ def preprocessing():
 	btc_data = get_btc_data()
 	values, classification = get_fng()
 	
-	print(btc_data)
 	btc_data["index"] = values
 	btc_data["klasifikasi"] = classification
 	btc_data = btc_data[["Date","High","Low","Close","index","klasifikasi"]]
