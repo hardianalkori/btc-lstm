@@ -9,3 +9,4 @@ streamlit==1.17.0
 streamviz==5.1
 yfinance==0.2.36
 scikit-learn
+openpyxl
