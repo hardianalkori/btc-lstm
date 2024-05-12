@@ -36,4 +36,4 @@ Jalankan
 - Butuh Koneksi Internet
 -  Model di desain memprediksi 1 langkah kedepan (Hari ini)
 -  Model ini menggunakan input window size 30 hari kebelakang untuk memprediksi 1 langkah kedepan (Hari ini).
-- Dikarenakan menggunakan 30 hari kebelakang, salah satu kelemahan aplikasi ini adalah hanya dapat digunakan pada jam 13:30 WIB atau 06:30AM UTC dikarenakan aplikasi ini menggunakan library yfinance yang dimana data di update pada jam tersebut.
+- Dikarenakan menggunakan 30 hari kebelakang, salah satu kelemahan aplikasi ini adalah hanya dapat digunakan pada jam diatas 13:30 WIB atau diatas jam 06:30AM UTC dikarenakan aplikasi ini menggunakan library yfinance yang dimana data di update pada jam tersebut.
