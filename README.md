@@ -4,13 +4,13 @@
 Dashboard Harga, Peramalan Harga Bitcoin menggunakan model LSTM (Long Short Term Memory) dan Dashboard Performa Prediksi.
 
 # Fitur
--  Dashboard Utama
+## Dashboard Utama
 ![App Screenshot](https://raw.githubusercontent.com/hardianalkori/btc-lstm/main/screenshot/home.png)
 
--   Peramalan
+## Peramalan
 ![App Screenshot](https://raw.githubusercontent.com/hardianalkori/btc-lstm/main/screenshot/forecast.png)
 
--   Dashboard Performa
+## Dashboard Performa
 ![App Screenshot](https://raw.githubusercontent.com/hardianalkori/btc-lstm/main/screenshot/performa.png)
 
 # Instalasi
