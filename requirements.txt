@@ -1,0 +1,10 @@
+CurrencyConverter==0.17.21
+joblib==1.1.0
+keras==2.10.0
+matplotlib==3.5.2
+numpy==1.23.0
+pandas==1.4.3
+pytz==2024.1
+streamlit==1.17.0
+streamviz==5.1
+yfinance==0.2.36
